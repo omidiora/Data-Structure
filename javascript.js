@@ -1,9 +1,10 @@
-const sumpTo=n=>{
-let total=0;
-for(let i=1;i<=n;i++){
-    total+=1;
-}
-return total;
+const reverseStrings=(str)=>{
+    let reverseString="";
+    for(let i=0;i<str.length;i++){
+        reverseString = str[i] +reverseString;
+    }
+    return reverseString;
+
 }
 
-console.log(sumpTo(3))
+console.log(reverseStrings('emma'))
